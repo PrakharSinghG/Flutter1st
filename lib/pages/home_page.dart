@@ -5,7 +5,7 @@ import '../widgets/drawer.dart';
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
   final int days = 30;
-  final String name = "COCONUT";
+  final String name = "Prakhar";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
