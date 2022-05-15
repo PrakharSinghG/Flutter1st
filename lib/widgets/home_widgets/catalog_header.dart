@@ -11,7 +11,7 @@ class CatalogHeader extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        "Catalag App".text.xl5.bold.color(MyTheme.darkBluishColor).make(),
+        "Catalag App".text.xl5.bold.color(context.accentColor).make(),
         "Trending Products".text.xl2.make(),
       ],
     );
