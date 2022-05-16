@@ -37,11 +37,11 @@ class MyTheme {
         floatingActionButtonTheme:
             FloatingActionButtonThemeData(backgroundColor: Colors.indigo[500]),
         appBarTheme: AppBarTheme(
-          color: Colors.white,
           elevation: 0.0,
           iconTheme: IconThemeData(color: Colors.white),
           titleTextStyle: TextStyle(
-            color: Colors.black,
+            
+            color: Colors.white,
             fontSize: 20,
           ),
         ),
