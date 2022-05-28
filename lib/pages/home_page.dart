@@ -28,8 +28,8 @@ class _HomePageState extends State<HomePage> {
 
   loadData() async {
     await Future.delayed(const Duration(seconds: 2));
-    var CatalogJson = await rootBundle.loadString("assets/files/catalog.json");
-    var decodedData = jsonDecode(CatalogJson);
+    var catalogJson = await rootBundle.loadString("assets/files/catalog.json");
+    var decodedData = jsonDecode(catalogJson);
     var productsData = decodedData["products"];
     CatalogModel.items =
         List.from(productsData).map((item) => Item.fromMap(item)).toList();
