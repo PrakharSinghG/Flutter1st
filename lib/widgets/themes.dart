@@ -49,7 +49,7 @@ class MyTheme {
             style: ElevatedButton.styleFrom(primary: lightBluishColor)),
       );
 
-  static Color creamColor = Color(0xffff5f5f5);
+  static Color creamColor = Color.fromARGB(255, 245, 245, 245);
   static Color darkcreamColor = Vx.gray900;
   static Color darkBluishColor = Color(0xff403b58);
   static Color? lightBluishColor = Colors.indigo[500];
