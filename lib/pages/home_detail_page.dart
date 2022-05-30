@@ -22,7 +22,6 @@ class HomeDetailPage extends StatelessWidget {
                 .text
                 .bold
                 .xl4
-                .color(const Color.fromARGB(255, 75, 4, 4))
                 .make(),
             AddToCart(
               catalog: catalog,
